@@ -11,5 +11,13 @@
         <h1 th:text="${msg}"></h1>
     </th:block>
 </div>
+
+<a th:href="@{/cars}">go to cars page</a><br>
+<a th:href="@{/cars?count=0}">select 0 cars</a><br>
+<a th:href="@{/cars?count=1}">select 1 car</a><br>
+<a th:href="@{/cars?count=4}">select 4 cars</a><br>
+<a th:href="@{/cars?count=5}">select 5 cars</a><br>
+<a th:href="@{/cars?count=6}">select 6 cars</a>
+
 </body>
 </html>
